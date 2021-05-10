@@ -1,0 +1,89 @@
+@font-face {
+    font-family: fonty;
+    src: url(fonts/title.ttf);
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, fieldset, form, label, legend, caption { /* gets rid of any possible white space on the edges */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+p {
+    color: white
+}
+
+#bg { /* background image positioning */
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+        
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+
+    z-index: -5 /* pushes the image back so we can have stuff over it */
+}
+
+h1.title {
+    font-size: 72pt;
+    text-align: center;
+    padding-top: 10px;
+    font-family: fonty;
+    color: whitesmoke;
+}
+
+#shadow {
+    text-shadow: 4px 4px 1px rgb(59, 59, 59); /* Shadow around the title text */
+}
+
+a {
+    color: inherit; 
+} 
+
+.accordion-body {
+    color: black;
+    font-size: 18pt;
+    line-height: +2;
+    text-align: center;
+}
+
+.accordion-button {
+    background: rgb(245, 245, 245);
+}
+
+#sAndQ {
+    background-color: white;
+    color: black;
+    border-radius: 25px 25px 25px 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#standardText {
+    margin-top: 10px;
+    color: inherit
+}
+
+#questionsText {
+    margin-top: 10px;
+    color: inherit
+}
+
+footer {
+    background: rgb(56, 56, 56);
+    color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    font-size: 11pt;
+}
