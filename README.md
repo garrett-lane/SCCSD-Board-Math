@@ -4,6 +4,8 @@ This program supplies SCCSD teachers with sample questions for setting up their 
 
 ## Usage
 
+The program can be found at https://garrett-lane.github.io/SCCSD-Board-Math/
+
 Users can simply select a standard from the accordion menu and sample questions will be displayed for the chosen standard. To choose a new standard, either select a new standard from the menu, or click the *Reset Selection* button to clear the current selection. 
 
 ## License
