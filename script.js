@@ -39,8 +39,8 @@ function oac6() {
 }
 
 function clearText() { // Clears the text duhhhhh
-	document.getElementById("standardText").innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin lectus velit, in viverra erat suscipit in. In hac habitasse platea dictumst. Nulla facilisis tempus justo, sed porta dolor iaculis accumsan. Ut elit ex, elementum tincidunt convallis eu, sodales non neque. Quisque felis lectus, auctor tincidunt est consequat, luctus egestas magna. Fusce ac lectus blandit, blandit dui et, sagittis lacus. Nulla tincidunt nisi vitae iaculis ornare. Etiam pellentesque quis nibh non dapibus. Nulla nec aliquet eros, at venenatis nisl.";
-    document.getElementById("questionsText").innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin lectus velit, in viverra erat suscipit in. In hac habitasse platea dictumst. Nulla facilisis tempus justo, sed porta dolor iaculis accumsan. Ut elit ex, elementum tincidunt convallis eu, sodales non neque. Quisque felis lectus, auctor tincidunt est consequat, luctus egestas magna. Fusce ac lectus blandit, blandit dui et, sagittis lacus. Nulla tincidunt nisi vitae iaculis ornare. Etiam pellentesque quis nibh non dapibus. Nulla nec aliquet eros, at venenatis nisl.";
+	document.getElementById("standardText").innerHTML = "Select a standard!";
+    document.getElementById("questionsText").innerHTML = "Select a standard!";
 }
 
 function oad7() {
