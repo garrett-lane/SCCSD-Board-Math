@@ -17,4 +17,4 @@ This program was **NOT** paid for by the Sioux City Community School District.
 
 ## Status
 
-This project is currently in development. 
+This project has been completed, and future additions are unknown at this time. 
