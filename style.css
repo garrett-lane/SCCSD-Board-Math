@@ -1,9 +1,11 @@
+/* Custom Font for the title */
 @font-face {
     font-family: fonty;
     src: url(fonts/title.ttf);
 }
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, fieldset, form, label, legend, caption { /* gets rid of any possible white space on the edges */
+/* gets rid of any possible white space on the edges */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, fieldset, form, label, legend, caption {
     margin: 0;
     padding: 0;
     border: 0;
@@ -17,7 +19,8 @@ p {
     color: white
 }
 
-#bg { /* background image positioning */
+/* background image positioning */
+#bg { 
     position: fixed; 
     top: 0; 
     left: 0; 
@@ -28,7 +31,8 @@ p {
     max-width: 100%;
     max-height: 100%;
 
-    z-index: -5 /* pushes the image back so we can have stuff over it */
+    /* pushes the image back so we can have stuff over it */
+    z-index: -5 
 }
 
 h1.title {
@@ -39,8 +43,9 @@ h1.title {
     color: whitesmoke;
 }
 
+/* puts a cool shadow on the title text */
 #shadow {
-    text-shadow: 4px 4px 1px rgb(59, 59, 59); /* Shadow around the title text */
+    text-shadow: 4px 4px 1px rgb(59, 59, 59); 
 }
 
 a {
@@ -61,6 +66,7 @@ a {
 #sAndQ {
     background-color: white;
     color: black;
+    /* makes the text box roundish */
     border-radius: 25px 25px 25px 25px;
     padding-left: 20px;
     padding-right: 20px;

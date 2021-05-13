@@ -1,3 +1,4 @@
+// Corresponding functions display the appropiate standard and questions in the right column. These functions are called upon their corresponding button in the HTML. 
 function nbtc4() {
 	document.getElementById("standardText").innerHTML = "Add within 100, including adding a two–digit number and a one–digit number, and adding a two–digit number and a multiple of 10, using concrete models or drawings and strategies based on place value, properties of operations, and/or the relationship between addition and subtraction; relate the strategy to a written method and explain the reasoning used. Understand that in adding two–digit numbers, one adds tens and tens, ones and ones; and sometimes it is necessary to compose a ten.";
     document.getElementById("questionsText").innerHTML = "1. 20 + 40 = ______<br>2. 60 - 20 = ______<br>3. Count on a hundred chart to find a sum. 24 + 4 = ______<br>4. Count on a hundreds chart to find a sum. 31 + 4 = ______<br>5. Add ones to a two digit number. 27 + 2 = ______<br>6. Add tens to a two digit number. 13 + 50 = ______<br>7. Make a ten to find 37 + 8.<br>8. Draw a quick picture. Use tens and ones to add. 43 + 37 = _____<br>9. 23 + ______ = 43<br>10. Add the ones. Add the tens. What is the sum? 11 + 3 = ______<br>11. Which has the same sum as 42 + 13? 24 + 13, 13 + 42, 41 + 23?<br>12. Lena adds 24 + 16. She adds the ones first. Which shows how she added the ones? 2 ones + 1 one = 3 ones, 4 ones + 5 ones = 9 ones, 4 ones + 6 ones = 1 ten?<br>13. Add ones and tens to find the sum. Then write the number missing from the related subtraction sentence. 38 + 30 = ______. ______ - 38 = 30"
@@ -36,11 +37,6 @@ function oab4() {
 function oac6() {
 	document.getElementById("standardText").innerHTML = "Add and subtract within 20, demonstrating fluency for addition and subtraction within 10. Use strategies such as counting on; making ten (e.g., 8 + 6 = 8 + 2 + 4 = 10 + 4 = 14); decomposing a number leading to a ten (e.g., 13 – 4 = 13 – 3 – 1 = 10 – 1 = 9); using the relationship between addition and subtraction (e.g., knowing that 8 + 4 = 12, one knows 12 – 8 = 4); and creating equivalent but easier or known sums (e.g., adding 6 + 7 by creating the known equivalent 6 + 6 + 1 = 12 + 1 = 13).";
     document.getElementById("questionsText").innerHTML = "1. Use a ten frame. 7+_____=10<br>2. Use a ten frame. 10-6=_____<br>3. Use a ten frame. 4+_____=10<br>4. Use a ten frame. 6=10-_____<br>5. Use a ten frame. 10-_____=3<br>6. Use a ten frame. 9+4=_____<br>7. If 8+5=13 then 13-5=_____<br>8. 12=6+_____<br>9. If 16=8+8 ten 8=_____-8<br>10. 7+7=14 so 7+8=_____<br>11. What doubles plus one fact can you use to help subtract: 13-6=_____<br>12. 9+3 has the same sum as 10+_____<br>13. Nia add 6+4. Which related subtraction sentence can Nia use to check her answer? A.) 12-6=6 B.) 10-4=6 C.) 6-4=2<br>14. Grace is subtracting 12-5=_____. First she subtracts 12-2=10. What does Grace subtract next to find the difference of 12-5? A.) 10-3=7 B.) 10-5=5 C.) 10-7=3<br>15. Which has the same sum as 9+8? A.) 6+8+1=15 B.) 7+6+3=16 C.) 8+8+1=17"
-}
-
-function clearText() { // Clears the text duhhhhh
-	document.getElementById("standardText").innerHTML = "Select a standard!";
-    document.getElementById("questionsText").innerHTML = "Select a standard!";
 }
 
 function oad7() {
@@ -107,14 +103,8 @@ function mdb3() {
 	document.getElementById("questionsText").innerHTML = "1. What time is it? (Time to hour or half-hour shown on digital clock)<br>2. Which clock shows _____ (time)? (use a digital or analog clock)<br>3. Which of these clocks shows one o'clock?<br>4. The clocks show when some friends got the newspaper Monday morning. Who got the newspaper later?<br>5. How long does it take for a horse to reach full size? A.) 4 hours B.) 4 weeks C.) 4 years<br>6. Which clock shows the same time? (Use 1 analog or digial and 3 of the other.)<br>7. Which clock shows 10:30?<br>8. Write the time.<br>9. What times does the clock show?<br>10. Draw the hour hand and the minute hand to show 1:30."
 }
 
-var x = document.getElementById("myAudio"); 
-
-function playAudio() { 
-  x.play(); 
-} 
-
-var sound = document.getElementById("mySound"); 
-
-function playSound() { 
-  sound.play(); 
-} 
+// Clears the text in the standard area and the questions when the "Reset Standard" button is pressed. 
+function clearText() { 
+	document.getElementById("standardText").innerHTML = "Select a standard!";
+    document.getElementById("questionsText").innerHTML = "Select a standard!";
+}
